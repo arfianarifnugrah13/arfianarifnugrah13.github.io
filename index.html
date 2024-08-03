@@ -11,8 +11,6 @@
   <link rel="icon" type="image" href="il.png" />
   <!-- Stylesheet Swiper -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <!-- Stylesheet Custom -->
-  <link rel="stylesheet" href="style.css" />
   <!-- Library JavaScript -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- Library TypeIt -->
@@ -83,7 +81,7 @@
       animation: jj 10s infinite;
       width: 100%;
       height: 100%;
-      transform: scale(1);
+      object-fit: cover; /* Ensure the image covers the area without stretching */
       transition: all 1.3s ease;
     }
 
@@ -405,7 +403,7 @@ footer a {
 
 <body>
   <!-- Audio latar -->
-  <audio src="Y2meta.app - SELAMAT ULANG TAHUN - JAMRUD ( LIVE ACOUSTIC COVER BY REGITA ECHA ) (128 kbps) (1).mp3" id="linkmp3" class="sembunyi"></audio>
+  <audio src="Y2meta.app - SELAMAT ULANG TAHUN - JAMRUD ( LIVE ACOUSTIC COVER BY REGITA ECHA ) (128 kbps) (1).mp3" loop id="linkmp3" class="sembunyi"></audio>
   <!-- Overlay loading -->
   <div class="overlay">
     <div class="loading-message">Hai kamu!<br />Tunggu dulu ya..</div>
@@ -454,7 +452,7 @@ footer a {
           <img src="cia 2.png" />
         </div>
         <h1 id="teks2" class="scale0 itim" style="font-size: 19px">
-          ciee,birthday is today 💞<br /><br /><span style="font-size: 16px; font-weight: 400">swipe & read to the end!</span><br /><br />
+          ciee, birthday is today 🥳🎉<br /><br /><span style="font-size: 16px; font-weight: 400">swipe & read to the end!</span><br /><br />
             ⇒ ⇒ ⇒
         </h1>
       </div>
